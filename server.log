@@ -1,0 +1,1533 @@
+Exception on /read [GET]
+Traceback (most recent call last):
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File ".\server.py", line 64, in read_blog
+    return read()
+  File ".\server.py", line 36, in read
+    cursor.execute(sql, ('webmaster@python.org',))
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\cursors.py", line 168, in execute
+    query = self.mogrify(query, args)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\cursors.py", line 147, in mogrify
+    query = query % self._escape_args(args, conn)
+TypeError: not all arguments converted during string formatting
+Exception on /read [GET]
+Traceback (most recent call last):
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File ".\server.py", line 64, in read_blog
+    read()
+  File ".\server.py", line 36, in read
+    cursor.execute(sql, ('webmaster@python.org',))
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\cursors.py", line 168, in execute
+    query = self.mogrify(query, args)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\cursors.py", line 147, in mogrify
+    query = query % self._escape_args(args, conn)
+TypeError: not all arguments converted during string formatting
+Exception on /read [GET]
+Traceback (most recent call last):
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File ".\server.py", line 64, in read_blog
+    read()
+  File ".\server.py", line 36, in read
+    cursor.execute(sql, ('webmaster@python.org',))
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\cursors.py", line 168, in execute
+    query = self.mogrify(query, args)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\cursors.py", line 147, in mogrify
+    query = query % self._escape_args(args, conn)
+TypeError: not all arguments converted during string formatting
+Exception on /blog [POST]
+Traceback (most recent call last):
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File ".\server.py", line 48, in blogging
+    return json.dumps({'html':'<span>All fields good !!</span>'})
+NameError: name 'json' is not defined
+Exception on /blog [POST]
+Traceback (most recent call last):
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File ".\server.py", line 47, in blogging
+    add(_title,_content)
+  File ".\server.py", line 24, in add
+    cursor.execute(sql)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%s, %s)' at line 1")
+Exception on /blog [POST]
+Traceback (most recent call last):
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File ".\server.py", line 44, in blogging
+    add(_title,_content)
+  File ".\server.py", line 24, in add
+    cursor.execute(sql)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%s, %s)' at line 1")
+Exception on /blog [POST]
+Traceback (most recent call last):
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File ".\server.py", line 44, in blogging
+    add(_title,_content)
+  File ".\server.py", line 24, in add
+    cursor.execute(sql)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Arisandy Wijaya)' at line 1")
+Exception on /read [GET]
+Traceback (most recent call last):
+  File ".\server.py", line 34, in read
+    cursor.execute(sql, ('webmaster@python.org',))
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\cursors.py", line 168, in execute
+    query = self.mogrify(query, args)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\cursors.py", line 147, in mogrify
+    query = query % self._escape_args(args, conn)
+TypeError: not all arguments converted during string formatting
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File ".\server.py", line 63, in read_blog
+    read()
+  File ".\server.py", line 38, in read
+    connection.close()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\connections.py", line 733, in close
+    raise err.Error("Already closed")
+pymysql.err.Error: Already closed
+Exception on /read [GET]
+Traceback (most recent call last):
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File ".\server.py", line 57, in read_blog
+    read()
+  File ".\server.py", line 30, in read
+    cursor.execute(sql, ('webmaster@python.org',))
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\cursors.py", line 168, in execute
+    query = self.mogrify(query, args)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\cursors.py", line 147, in mogrify
+    query = query % self._escape_args(args, conn)
+TypeError: not all arguments converted during string formatting
+Exception on /read [GET]
+Traceback (most recent call last):
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File ".\server.py", line 58, in read_blog
+    read()
+  File ".\server.py", line 33, in read
+    print("Coba",result.title)
+AttributeError: 'list' object has no attribute 'title'
+Exception on /read [GET]
+Traceback (most recent call last):
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File ".\server.py", line 58, in read_blog
+    read()
+  File ".\server.py", line 33, in read
+    print("Coba",result["title"])
+TypeError: list indices must be integers or slices, not str
+Exception on /read [GET]
+Traceback (most recent call last):
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File ".\server.py", line 58, in read_blog
+    read()
+  File ".\server.py", line 33, in read
+    print("Coba",result[0].title)
+AttributeError: 'dict' object has no attribute 'title'
+Exception on /blog [POST]
+Traceback (most recent call last):
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File ".\server.py", line 19, in blogging
+    BlogRepository().insert(Blog(_title,_content))
+TypeError: insert() takes 1 positional argument but 2 were given
+Exception on /blog [POST]
+Traceback (most recent call last):
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File ".\server.py", line 19, in blogging
+    BlogRepository().insert(Blog(_title,_content))
+  File "G:\Python\textmining\repository\BlogRepository.py", line 13, in insert
+    connection.commit()
+NameError: name 'connection' is not defined
+Exception on /blog [POST]
+Traceback (most recent call last):
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File ".\server.py", line 42, in blogging
+    listTf.append(Tf(_title,word,_n))
+NameError: name 'Tf' is not defined
+Exception on /blog [POST]
+Traceback (most recent call last):
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File ".\server.py", line 49, in blogging
+    print(tf)
+  File "G:\Python\textmining\model\Tf.py", line 8, in __str__
+    return self.title+self.word+self.n
+TypeError: must be str, not int
+Exception on /blog [POST]
+Traceback (most recent call last):
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File ".\server.py", line 53, in blogging
+    TfRepository().insert(tf)
+  File "G:\Python\textmining\repository\TfRepository.py", line 19, in insert
+    sql = "INSERT INTO `tf`(`title`,`word`, `n` VALUES ("+tf.title+","+tf.word+","+tf.n+")"
+TypeError: must be str, not int
+Exception on /blog [POST]
+Traceback (most recent call last):
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File ".\server.py", line 53, in blogging
+    TfRepository().insert(tf)
+  File "G:\Python\textmining\repository\TfRepository.py", line 20, in insert
+    cursor.execute(sql)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'VALUES (Anime,sub,1)' at line 1")
+Exception on /blog [POST]
+Traceback (most recent call last):
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File ".\server.py", line 30, in blogging
+    BlogRepository().insert(Blog(_title,_content))
+  File "G:\Python\textmining\repository\BlogRepository.py", line 12, in insert
+    cursor.execute(sql)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Presiden Joko Widodo' menjadi viral di media sosial. Pihak Istana menyebut peluk' at line 1")
+Exception on /blog [POST]
+Traceback (most recent call last):
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File ".\server.py", line 56, in blogging
+    TfRepository().insert(tf)
+  File "G:\Python\textmining\repository\TfRepository.py", line 20, in insert
+    cursor.execute(sql)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'VALUES ('Event','bentuk',1)' at line 1")
+Exception on /blog [POST]
+Traceback (most recent call last):
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File ".\server.py", line 57, in blogging
+    TfRepository().insert(tf)
+  File "G:\Python\textmining\repository\TfRepository.py", line 20, in insert
+    cursor.execute(sql)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'VALUES ('Event','gadis',1)' at line 1")
+Exception on /blog [POST]
+Traceback (most recent call last):
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File ".\server.py", line 57, in blogging
+    TfRepository().insert(tf)
+  File "G:\Python\textmining\repository\TfRepository.py", line 20, in insert
+    cursor.execute(sql)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'VALUES('Event','sosok','1')' at line 1")
+Exception on /find [POST]
+Traceback (most recent call last):
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File ".\server.py", line 94, in result_blog
+    blob = tb(_content)
+NameError: name '_content' is not defined
+Exception on /find [POST]
+Traceback (most recent call last):
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File ".\server.py", line 96, in result_blog
+    listTf.append(Tf(_title,word,_n))
+NameError: name '_title' is not defined
+Exception on /find [POST]
+Traceback (most recent call last):
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File ".\server.py", line 99, in result_blog
+    listBlog = BlogAssembler().fromList(BlogRepository().getAll())
+TypeError: fromList() takes 1 positional argument but 2 were given
+Exception on /find [POST]
+Traceback (most recent call last):
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File ".\server.py", line 101, in result_blog
+    tfData = TfAssembler().fromList(TfRepository().getFromWord(word))
+TypeError: getFromWord() takes 1 positional argument but 2 were given
+Exception on /find [POST]
+Traceback (most recent call last):
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File ".\server.py", line 101, in result_blog
+    tfData = TfAssembler.fromList(TfRepository().getFromWord(word))
+TypeError: getFromWord() takes 1 positional argument but 2 were given
+Exception on /find [POST]
+Traceback (most recent call last):
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File ".\server.py", line 101, in result_blog
+    tfData = TfAssembler.fromList(TfRepository().getFromWord(word))
+TypeError: fromList() missing 1 required positional argument: 'json'
+Exception on /find [POST]
+Traceback (most recent call last):
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File ".\server.py", line 120, in result_blog
+    idfList.append({word:idf(word,bloblist)})
+AttributeError: 'dict' object has no attribute 'append'
+Exception on /find [POST]
+Traceback (most recent call last):
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File ".\server.py", line 120, in result_blog
+    idfList.append(idf(word,bloblist))
+  File "G:\Python\textmining\tfidf2.py", line 11, in idf
+    return math.log(len(bloblist) / (1 + n_containing(word, bloblist)))
+ValueError: math domain error
+Exception on /find [POST]
+Traceback (most recent call last):
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File ".\server.py", line 120, in result_blog
+    idfList.append(idf(word,bloblist))
+  File "G:\Python\textmining\tfidf2.py", line 11, in idf
+    return math.log(len(bloblist) / (1 + n_containing(word, bloblist)))
+ValueError: math domain error
+Exception on /find [POST]
+Traceback (most recent call last):
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File ".\server.py", line 122, in result_blog
+    idfList.append(idf(word,bloblist))
+  File "G:\Python\textmining\tfidf2.py", line 11, in idf
+    return math.log(len(bloblist) / (1 + n_containing(word, bloblist)))
+ValueError: math domain error
+Exception on /find [POST]
+Traceback (most recent call last):
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File ".\server.py", line 114, in result_blog
+    listBlog.append(BlogRepository().getByTitle(l))
+  File "G:\Python\textmining\repository\BlogRepository.py", line 27, in getByTitle
+    cursor.execute(sql)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.InternalError: (1054, "Unknown column 'Event' in 'where clause'")
+Exception on /find [POST]
+Traceback (most recent call last):
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File ".\server.py", line 119, in result_blog
+    bloblist.append(tb(blog.content))
+AttributeError: 'list' object has no attribute 'content'
+Exception on /find [POST]
+Traceback (most recent call last):
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File ".\server.py", line 119, in result_blog
+    bloblist.append(tb(blog["content"]))
+TypeError: list indices must be integers or slices, not str
+Exception on /find [POST]
+Traceback (most recent call last):
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File ".\server.py", line 119, in result_blog
+    bloblist.append(tb(blog["content"]))
+TypeError: list indices must be integers or slices, not str
+Exception on /find [POST]
+Traceback (most recent call last):
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File ".\server.py", line 119, in result_blog
+    blobList.append(tb(blog["content"]))
+TypeError: list indices must be integers or slices, not str
+Exception on /find [POST]
+Traceback (most recent call last):
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File ".\server.py", line 119, in result_blog
+    content = blog["content"]
+TypeError: list indices must be integers or slices, not str
+Exception on /find [POST]
+Traceback (most recent call last):
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File ".\server.py", line 121, in result_blog
+    content = blog["content"]
+TypeError: list indices must be integers or slices, not str
+Exception on /find [POST]
+Traceback (most recent call last):
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File ".\server.py", line 131, in result_blog
+    for i, word in uniqWord:
+ValueError: too many values to unpack (expected 2)
+Exception on /find [POST]
+Traceback (most recent call last):
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File ".\server.py", line 130, in result_blog
+    for i,word in uniqWord:
+ValueError: too many values to unpack (expected 2)
+Exception on /find [POST]
+Traceback (most recent call last):
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\werkzeug\wrappers.py", line 921, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\werkzeug\wrappers.py", line 59, in _run_wsgi_app
+    return _run_wsgi_app(*args)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\werkzeug\test.py", line 923, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1816, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1831, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1982, in make_response
+    reraise(TypeError, new_error, sys.exc_info()[2])
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\_compat.py", line 34, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\werkzeug\wrappers.py", line 921, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\werkzeug\wrappers.py", line 59, in _run_wsgi_app
+    return _run_wsgi_app(*args)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\werkzeug\test.py", line 923, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+The view function did not return a valid response. The return type must be a string, tuple, Response instance, or WSGI callable, but it was a list.
+Exception on /find [POST]
+Traceback (most recent call last):
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\werkzeug\wrappers.py", line 921, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\werkzeug\wrappers.py", line 59, in _run_wsgi_app
+    return _run_wsgi_app(*args)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\werkzeug\test.py", line 923, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1816, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1831, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1982, in make_response
+    reraise(TypeError, new_error, sys.exc_info()[2])
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\_compat.py", line 34, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\werkzeug\wrappers.py", line 921, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\werkzeug\wrappers.py", line 59, in _run_wsgi_app
+    return _run_wsgi_app(*args)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\werkzeug\test.py", line 923, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+The view function did not return a valid response. The return type must be a string, tuple, Response instance, or WSGI callable, but it was a list.
+Exception on /find [POST]
+Traceback (most recent call last):
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\werkzeug\wrappers.py", line 921, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\werkzeug\wrappers.py", line 59, in _run_wsgi_app
+    return _run_wsgi_app(*args)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\werkzeug\test.py", line 923, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1816, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1831, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1982, in make_response
+    reraise(TypeError, new_error, sys.exc_info()[2])
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\_compat.py", line 34, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\werkzeug\wrappers.py", line 921, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\werkzeug\wrappers.py", line 59, in _run_wsgi_app
+    return _run_wsgi_app(*args)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\werkzeug\test.py", line 923, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+The view function did not return a valid response. The return type must be a string, tuple, Response instance, or WSGI callable, but it was a list.
+Exception on /find [POST]
+Traceback (most recent call last):
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\werkzeug\wrappers.py", line 921, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\werkzeug\wrappers.py", line 59, in _run_wsgi_app
+    return _run_wsgi_app(*args)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\werkzeug\test.py", line 923, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1816, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1831, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1982, in make_response
+    reraise(TypeError, new_error, sys.exc_info()[2])
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\_compat.py", line 34, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\werkzeug\wrappers.py", line 921, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\werkzeug\wrappers.py", line 59, in _run_wsgi_app
+    return _run_wsgi_app(*args)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\werkzeug\test.py", line 923, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+The view function did not return a valid response. The return type must be a string, tuple, Response instance, or WSGI callable, but it was a list.
+Exception on /find [POST]
+Traceback (most recent call last):
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\werkzeug\wrappers.py", line 921, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\werkzeug\wrappers.py", line 59, in _run_wsgi_app
+    return _run_wsgi_app(*args)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\werkzeug\test.py", line 923, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1816, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1831, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1982, in make_response
+    reraise(TypeError, new_error, sys.exc_info()[2])
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\_compat.py", line 34, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\werkzeug\wrappers.py", line 921, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\werkzeug\wrappers.py", line 59, in _run_wsgi_app
+    return _run_wsgi_app(*args)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\werkzeug\test.py", line 923, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+The view function did not return a valid response. The return type must be a string, tuple, Response instance, or WSGI callable, but it was a list.
+Exception on /find [POST]
+Traceback (most recent call last):
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\werkzeug\wrappers.py", line 921, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\werkzeug\wrappers.py", line 59, in _run_wsgi_app
+    return _run_wsgi_app(*args)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\werkzeug\test.py", line 923, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1816, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1831, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1982, in make_response
+    reraise(TypeError, new_error, sys.exc_info()[2])
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\_compat.py", line 34, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\werkzeug\wrappers.py", line 921, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\werkzeug\wrappers.py", line 59, in _run_wsgi_app
+    return _run_wsgi_app(*args)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\werkzeug\test.py", line 923, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+The view function did not return a valid response. The return type must be a string, tuple, Response instance, or WSGI callable, but it was a list.
+Exception on /find [POST]
+Traceback (most recent call last):
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\werkzeug\wrappers.py", line 921, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\werkzeug\wrappers.py", line 59, in _run_wsgi_app
+    return _run_wsgi_app(*args)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\werkzeug\test.py", line 923, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1816, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1831, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1982, in make_response
+    reraise(TypeError, new_error, sys.exc_info()[2])
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\_compat.py", line 34, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\werkzeug\wrappers.py", line 921, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\werkzeug\wrappers.py", line 59, in _run_wsgi_app
+    return _run_wsgi_app(*args)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\werkzeug\test.py", line 923, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+The view function did not return a valid response. The return type must be a string, tuple, Response instance, or WSGI callable, but it was a list.
+Exception on /find [POST]
+Traceback (most recent call last):
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\werkzeug\wrappers.py", line 921, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\werkzeug\wrappers.py", line 59, in _run_wsgi_app
+    return _run_wsgi_app(*args)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\werkzeug\test.py", line 923, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1816, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1831, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1982, in make_response
+    reraise(TypeError, new_error, sys.exc_info()[2])
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\_compat.py", line 34, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\werkzeug\wrappers.py", line 921, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\werkzeug\wrappers.py", line 59, in _run_wsgi_app
+    return _run_wsgi_app(*args)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\werkzeug\test.py", line 923, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+The view function did not return a valid response. The return type must be a string, tuple, Response instance, or WSGI callable, but it was a list.
+Exception on /find [POST]
+Traceback (most recent call last):
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\werkzeug\wrappers.py", line 921, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\werkzeug\wrappers.py", line 59, in _run_wsgi_app
+    return _run_wsgi_app(*args)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\werkzeug\test.py", line 923, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1816, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1831, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1982, in make_response
+    reraise(TypeError, new_error, sys.exc_info()[2])
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\_compat.py", line 34, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\werkzeug\wrappers.py", line 921, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\werkzeug\wrappers.py", line 59, in _run_wsgi_app
+    return _run_wsgi_app(*args)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\werkzeug\test.py", line 923, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+The view function did not return a valid response. The return type must be a string, tuple, Response instance, or WSGI callable, but it was a list.
+Exception on /find [POST]
+Traceback (most recent call last):
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1816, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1831, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1957, in make_response
+    'The view function did not return a valid response. The'
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+Exception on /find [POST]
+Traceback (most recent call last):
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File ".\server.py", line 139, in result_blog
+    strResult.append(s)
+AttributeError: 'str' object has no attribute 'append'
+Exception on /find [POST]
+Traceback (most recent call last):
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File ".\server.py", line 139, in result_blog
+    print(values.index(max(values)))
+NameError: name 'values' is not defined
+Exception on /find [POST]
+Traceback (most recent call last):
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File ".\server.py", line 143, in result_blog
+    rank.append(listTitleBlog[bestIndex])
+IndexError: list index out of range
+Exception on /find [POST]
+Traceback (most recent call last):
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File ".\server.py", line 142, in result_blog
+    rank.append(listTitleBlog[bestIndex])
+IndexError: list index out of range
+Exception on /find [POST]
+Traceback (most recent call last):
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File ".\server.py", line 142, in result_blog
+    rank.append(listTitleBlog[bestIndex])
+IndexError: list index out of range
+Exception on /find [POST]
+Traceback (most recent call last):
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File ".\server.py", line 142, in result_blog
+    rank.append(listTitleBlog[bestIndex])
+IndexError: list index out of range
+Exception on /find [POST]
+Traceback (most recent call last):
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File ".\server.py", line 142, in result_blog
+    print("Title:",listTitleBlog[bestIndex])
+IndexError: list index out of range
+Exception on /find [POST]
+Traceback (most recent call last):
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File ".\server.py", line 143, in result_blog
+    print("Title:",listTitleBlog[bestIndex])
+IndexError: list index out of range
+Exception on /find [POST]
+Traceback (most recent call last):
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File ".\server.py", line 143, in result_blog
+    print("Title:",listTitleBlog[bestIndex])
+IndexError: list index out of range
+Exception on /find [POST]
+Traceback (most recent call last):
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File ".\server.py", line 148, in result_blog
+    lenScore = len(scroe)
+NameError: name 'scroe' is not defined
+Exception on /find [POST]
+Traceback (most recent call last):
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File ".\server.py", line 144, in result_blog
+    print("Title:",listTitleBlog[bestIndex])
+IndexError: list index out of range
+Exception on /find [POST]
+Traceback (most recent call last):
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File ".\server.py", line 144, in result_blog
+    print("Title:",listTitleBlog[bestIndex])
+IndexError: list index out of range
+Exception on /find [POST]
+Traceback (most recent call last):
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File ".\server.py", line 144, in result_blog
+    print("Title:",listTitleBlog[bestIndex])
+IndexError: list index out of range
+Exception on /blog [POST]
+Traceback (most recent call last):
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File ".\server.py", line 33, in blogging
+    BlogRepository().insert(Blog(_title,_content))
+  File "G:\Python\textmining\repository\BlogRepository.py", line 12, in insert
+    cursor.execute(sql)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Raja' Pertanian Dunia','Jakarta - Sampai saat ini perekonomian Indonesia masih b' at line 1")
+Exception on /blog [POST]
+Traceback (most recent call last):
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File ".\server.py", line 33, in blogging
+    BlogRepository().insert(Blog(_title,_content))
+  File "G:\Python\textmining\repository\BlogRepository.py", line 12, in insert
+    cursor.execute(sql)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Raja' Pertanian Dunia','Jakarta - Sampai saat ini perekonomian Indonesia masih b' at line 1")

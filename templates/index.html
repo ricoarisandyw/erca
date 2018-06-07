@@ -1,0 +1,48 @@
+
+<html>
+    <head>
+        <link href="https://getbootstrap.com/docs/4.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+        <link href="http://getbootstrap.com/examples/jumbotron-narrow/jumbotron-narrow.css" rel="stylesheet">
+        <title>Search Engine</title>
+        <script src="{{ url_for('static', filename = 'js/jquery-3.3.1.min.js') }}"></script>
+        <script src="{{ url_for('static', filename = 'js/custom.js') }}"></script>
+
+        <link href="{{ url_for('static', filename = 'css/style.css') }}" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Informatics Geeks</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="/blog">Add Article</a>
+                </li>
+            </ul>
+            </div>
+        </nav>
+        <div class="row">
+            <div class="col-lg-4"></div>
+            <div class="col-lg-4">
+                <form class="form-group" action="/find" method="POST">
+                    <br><br><br><br>
+                    <center>
+                        <div style="display: inline-flex;"><img style="width: 50px;height: 50px;" src="{{url_for('static', filename = 'images/logo.png')}}"><h1>Geeks</h1><small>search</small></div>
+                        <br>
+                        <input name="query" class="form-control" type="search" placeholder="Search" aria-label="Search">
+                        <br>
+                        <input type="submit" class="btn btn-primary my-2 my-sm-0" value="Search">
+                    </center>
+                </form>
+            </div>
+            <div class="col-lg-4"></div>
+        </div>
+    </body>
+</html>
