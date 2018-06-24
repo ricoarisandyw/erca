@@ -28,16 +28,35 @@
             </div>
         </nav>
         <div class="row">
+            <div class="col-lg-8" style="margin: 15px">
+                <form id="columnarForm" class="form-group" method="POST">
+                    <div style="display: inline-flex;"><img style="width: 50px;height: 50px;" src="{{url_for('static', filename = 'images/logo.png')}}"><h1>Geeks</h1><small>search</small></div>
+                    <br>
+                    <input name="query" class="form-control" type="search" placeholder="Search" aria-label="Search" value="{{query}}"></input>
+                    <br>
+                    <input type="submit" onclick="submitForm('/find')" class="btn btn-primary my-2 my-sm-0" value="Tf-Idf">
+                    <input type="submit" onclick="submitForm('/cosine')" class="btn btn-primary my-2 my-sm-0" value="Cosine">
+                </form>
+            </div>
             <div class="col-lg-12">
                 {% for r in rank %}
                 <div class="card" style="margin: 15px">
                     <div class="card-body">
                         <a href="/detail?title={{r["title"]}}"><h5 class="card-title">{{r["title"]}}</h5></a>
-                        {{r["content"][:100]}}...
+                        <small style="color: green"><a href="/detail?title={{r["link"]}}">{{r["link"]}}</a></small>
+                        <br><small style="color: gray">on {{r["date"]}}</small>
+                        <br>{{r["content"][:170]}}...
                     </div>
                 </div>
                 {% endfor %}
             </div>
         </div>
+        <script>
+            function submitForm(action)
+            {
+                document.getElementById('columnarForm').action = action;
+                document.getElementById('columnarForm').submit();
+            }
+        </script>
    </body>
 </html>

@@ -1531,3 +1531,197 @@ Traceback (most recent call last):
   File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
     raise errorclass(errno, errval)
 pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Raja' Pertanian Dunia','Jakarta - Sampai saat ini perekonomian Indonesia masih b' at line 1")
+Exception on /blog [POST]
+Traceback (most recent call last):
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File ".\server.py", line 46, in blogging
+    BlogRepository().insert(Blog(_title,_content,_link,_content2,_date))
+TypeError: __init__() takes 3 positional arguments but 6 were given
+Exception on /blog [POST]
+Traceback (most recent call last):
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File ".\server.py", line 46, in blogging
+    BlogRepository().insert(Blog(_title,_content,_link,_content2,_date))
+TypeError: insert() missing 3 required positional arguments: 'link', 'tf', and 'date'
+Exception on /blog [POST]
+Traceback (most recent call last):
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File ".\server.py", line 46, in blogging
+    BlogRepository().insert(Blog(_title,_content,_link,_content2,_date))
+  File "G:\Python\textmining\repository\BlogRepository.py", line 19, in insert
+    cursor.execute(sql)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Raja' Pertanian Dunia','JAKARTA, KOMPAS.com - Kebakaran melanda lantai 10 Hotel ' at line 1")
+Exception on /blog [POST]
+Traceback (most recent call last):
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File ".\server.py", line 47, in blogging
+    BlogRepository().insert(Blog(_title,_content,_link,_content2,_date))
+  File "G:\Python\textmining\repository\BlogRepository.py", line 19, in insert
+    cursor.execute(sql)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Raja' Pertanian Dunia','JAKARTA, KOMPAS.com - Kebakaran melanda lantai 10 Hotel ' at line 1")
+Exception on /blog [POST]
+Traceback (most recent call last):
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\connections.py", line 958, in connect
+    **kwargs)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\socket.py", line 724, in create_connection
+    raise err
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\socket.py", line 713, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File ".\server.py", line 47, in blogging
+    BlogRepository().insert(Blog(_title,_content,_link,_content2,_date))
+  File "G:\Python\textmining\repository\BlogRepository.py", line 6, in __init__
+    self.connection = conn.getConnection()
+  File "G:\Python\textmining\repository\sql.py", line 10, in getConnection
+    cursorclass=pymysql.cursors.DictCursor)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\__init__.py", line 90, in Connect
+    return Connection(*args, **kwargs)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\connections.py", line 704, in __init__
+    self.connect()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\connections.py", line 1005, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+Exception on /find [POST]
+Traceback (most recent call last):
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File ".\server.py", line 101, in result_blog
+    blob = tb(_content)
+NameError: name '_content' is not defined
+Exception on /blog [POST]
+Traceback (most recent call last):
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File ".\server.py", line 47, in blogging
+    BlogRepository().insert(Blog(_title,_content,_link,_content2,_date))
+  File "G:\Python\textmining\repository\BlogRepository.py", line 12, in insert
+    cursor.execute(sql)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'siaga oranye' yang menandakan seluruh warga dilarang keluar rumah hingga waktu t' at line 1")
