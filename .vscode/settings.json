@@ -1,3 +1,4 @@
 {
-    "python.linting.pylintEnabled": false
+    "python.linting.pylintEnabled": false,
+    "python.pythonPath": "C:\\Users\\wijaya\\.virtualenvs\\flask-kitchensink-KTo8q5zU\\Scripts\\python.exe"
 }

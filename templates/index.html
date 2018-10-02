@@ -1,14 +1,12 @@
 
 <html>
     <head>
-        <link href="https://getbootstrap.com/docs/4.0/dist/css/bootstrap.min.css" rel="stylesheet">
-
-        <link href="http://getbootstrap.com/examples/jumbotron-narrow/jumbotron-narrow.css" rel="stylesheet">
-        <title>Search Engine</title>
+        <title>Ercha Prototype</title>
         <script src="{{ url_for('static', filename = 'js/jquery-3.3.1.min.js') }}"></script>
         <script src="{{ url_for('static', filename = 'js/custom.js') }}"></script>
 
         <link href="{{ url_for('static', filename = 'css/style.css') }}" type="text/css" rel="stylesheet">
+        <link href="{{ url_for('static', filename = 'css/bootstrap.css') }}" type="text/css" rel="stylesheet">
     </head>
     <body>
         <nav class="navbar navbar-expand-lg navbar-light bg-light" style="box-shadow: 1px 1px 1px 1px #00000042;">
@@ -23,7 +21,7 @@
                 <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="/blog">Add Article</a>
+                <a class="nav-link" href="/faq">Add FAQ</a>
                 </li>
             </ul>
             </div>

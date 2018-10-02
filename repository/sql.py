@@ -5,6 +5,6 @@ class Sql:
         return pymysql.connect(host='localhost',
                                 user='root',
                                 password='',
-                                db='textmining',
+                                db='ercha',
                                 charset='utf8mb4',
                                 cursorclass=pymysql.cursors.DictCursor)

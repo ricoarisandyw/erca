@@ -1,0 +1,122 @@
+<span>Guest</span>hai
+<span>Ercha Bot</span>I don't understand
+<span>Guest</span>siapa namamu?
+<span>Ercha Bot</span>I don't understand
+<span>Guest</span>hello
+<span>Ercha Bot</span>I don't understand
+<span>Guest</span>namamu siapa?
+<span>Ercha Bot</span>I don't understand
+<span>Guest</span>nama kamu siapa?
+<span>Ercha Bot</span>I don't understand
+<span>Guest</span>nama kamu siapa?
+<span>Ercha Bot</span>I don't understand
+<span>Guest</span>nama kamu siapa?
+<span>Guest</span>namamu siapa?
+<span>Guest</span>namamu siapa?
+<span>Guest</span>namamu siapa?
+<span>Ercha Bot</span>nama aku ercha. Kamu siapa?
+<span>Guest</span>namamu siapa?
+<span>Ercha Bot</span>nama aku ercha. Kamu siapa?
+<span>Guest</span>hai
+<span>Ercha Bot</span>nama aku ercha. Kamu siapa?
+<span>Guest</span>hai
+<span>Ercha Bot</span>nama aku ercha. Kamu siapa?
+<span>Guest</span>hai
+<span>Ercha Bot</span>nama aku ercha. Kamu siapa?
+<span>Guest</span>tinggal dimana?
+<span>Ercha Bot</span>Aku bertempat tinggal di PENS
+<span>Guest</span>oaushd oiad
+<span>Ercha Bot</span>I don't understand
+<span>Guest</span>hello
+<span>Ercha Bot</span>I don't understand
+<span>Guest</span>kamu lahir tanggal berapa?
+<span>Ercha Bot</span>Aku lahir pada 1 januari 2019
+<span>Guest</span>kamu
+<span>Ercha Bot</span>nama aku ercha. Kamu siapa?
+<span>Guest</span>siapa
+<span>Ercha Bot</span>nama aku ercha. Kamu siapa?
+<span>Guest</span>mu
+<span>Ercha Bot</span>Aku bertempat tinggal di PENS
+<span>Guest</span>hai
+<span>Ercha Bot</span>nama aku ercha. Kamu siapa?
+<span>Guest</span>aku rico
+<span>Ercha Bot</span>I don't understand
+<span>Guest</span>dimana tempat tinggalmu?
+<span>Ercha Bot</span>Aku bertempat tinggal di PENS
+<span>Guest</span>kamu ada dimana?
+<span>Ercha Bot</span>nama aku ercha. Kamu siapa?
+<span>Guest</span>kamu dimana?
+<span>Ercha Bot</span>nama aku ercha. Kamu siapa?
+<span>Rico</span>hai
+<span>Ercha Bot</span>nama aku ercha. Kamu siapa?
+<span>Rico</span>siapa namamu?
+<span>Ercha Bot</span>nama aku ercha. Kamu siapa?
+<span>Rico</span>oh
+<span>Ercha Bot</span>I don't understand
+<span>rico</span>hai
+<span>Ercha Bot</span>nama aku ercha. Kamu siapa?
+<span>rico</span>oh gitu
+<span>Ercha Bot</span>I don't understand
+<span>Guest</span>hai
+<span>Ercha Bot</span>nama aku ercha. Kamu siapa?
+<span>null</span>hai
+<span>Guest</span>nama kamu siapa
+<span>Ercha Bot</span>nama aku ercha. Kamu siapa?
+<span>Guest</span>tinggal kamu dimana
+<span>Ercha Bot</span>Aku bertempat tinggal di PENS
+<span>Guest</span>apakah kamu punya tempat tinggal disana?
+<span>Ercha Bot</span>Aku bertempat tinggal di PENS
+<span>Guest</span>apakah kamu punya tempat tinggal disana di tempat yang jauh itu
+?<span>Ercha Bot</span>Aku bertempat tinggal di PENS
+<span>rico</span>hai
+<span>Ercha Bot</span>nama aku ercha. Kamu siapa?
+<span>rico</span>bolehkah aku bertanya dimana kamu tinggal?
+<span>Ercha Bot</span>I don't understand
+<span>rico</span>dimana kamu tinggal?
+<span>Ercha Bot</span>nama aku ercha. Kamu siapa?
+<span>Guest</span>hai
+<span>Ercha Bot</span>nama aku ercha. Kamu siapa?
+<span>Guest</span>dimana tempat tinggal kamu?
+<span>Ercha Bot</span>Aku bertempat tinggal di PENS
+<span>Guest</span>hai
+<span>Ercha Bot</span>nama aku ercha. Kamu siapa?
+<span>Guest</span>nama
+<span>Ercha Bot</span>nama aku ercha. Kamu siapa?
+<span>Guest</span>dimana tempat tinggal kamu?
+<span>Ercha Bot</span>Aku bertempat tinggal di PENS
+<span>Rico</span>apa kabar mu?
+<span>Ercha Bot</span>Aku bertempat tinggal di PENS
+<span>Rico</span>hai
+<span>Ercha Bot</span>nama aku ercha. Kamu siapa?
+<span>Rico</span>namamu
+<span>Ercha Bot</span>nama aku ercha. Kamu siapa?
+<span>Rico</span>kamu
+<span>Ercha Bot</span>nama aku ercha. Kamu siapa?
+<span>Rico</span>mu
+<span>Ercha Bot</span>Aku bertempat tinggal di PENS
+<span>Guest</span>hai
+<span>Ercha Bot</span>nama aku ercha. Kamu siapa?
+<span>Guest</span>hai
+<span>Ercha Bot</span>nama aku ercha. Kamu siapa?
+<span>Guest</span>dimana tempat tinggalmu?
+<span>Ercha Bot</span>Aku bertempat tinggal di PENS
+<span>Guest</span>tinggal
+<span>Ercha Bot</span>Aku bertempat tinggal di PENS
+<span>Guest</span>tempat
+<span>Ercha Bot</span>Aku bertempat tinggal di PENS
+<span>rico</span>hai
+<span>Guest</span>hai
+<span>Guest</span>hai
+<span>Ercha Bot</span>nama aku ercha. Kamu siapa?
+<span>Guest</span>dimana kamu tinggal?
+<span>Ercha Bot</span>nama aku ercha. Kamu siapa?
+<span>Guest</span>kamu tinggal dimana?
+<span>Ercha Bot</span>Aku bertempat tinggal di PENS
+<span>Guest</span>siapa namamu
+<span>Ercha Bot</span>nama aku ercha. Kamu siapa?
+<span>Guest</span>namamu dimana?
+<span>Ercha Bot</span>nama aku ercha. Kamu siapa?
+<span>Guest</span>dimana kamu tinggal?
+<span>Ercha Bot</span>nama aku ercha. Kamu siapa?
+<span>Guest</span>kamu tinggal dimana?
+<span>Ercha Bot</span>Aku bertempat tinggal di PENS
