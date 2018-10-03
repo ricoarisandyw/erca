@@ -120,3 +120,53 @@
 <span>Ercha Bot</span>nama aku ercha. Kamu siapa?
 <span>Guest</span>kamu tinggal dimana?
 <span>Ercha Bot</span>Aku bertempat tinggal di PENS
+<span>Rico</span>hai
+<span>Ercha Bot</span>nama aku ercha. Kamu siapa?
+<span>Rico</span>saya ingin menanyakan tentang berkas
+<span>Ercha Bot</span>Tentang Prodi Pilihan 
+ 1. Berapa banyak prodi yang bisa dipilih? 
+ Prodi maksimal yang boleh dipilih adalah 3 Pililhan 
+<span>Rico</span>angkatan berapa yang boleh mendaftar?
+<span>Ercha Bot</span>Peserta Program PMDK PN ini adalah semua siswa/i SMA/SMK/MA baik yang berstatus Negeri maupun Swasta dari seluruh wilaya
+<span>Rico</span>bagaimana jadwal umpn?
+<span>Ercha Bot</span>Silahkan dilihat pada laman pmdk.politeknik.or.id
+<span>Rico</span>bagaimana jadwal umpn?
+<span>Ercha Bot</span>Silahkan dilihat pada laman pmdk.politeknik.or.id
+<span>Rico</span>apakah ranking bisa menentukan?
+<span>Ercha Bot</span>Rangking yang digunakan adalah rangking paralel per jurusan di sekolah.
+<span>Rico</span>berkas apa saja yang dibutuhkan untuk mendaftar?
+<span>Ercha Bot</span>Peserta Program PMDK PN ini adalah semua siswa/i SMA/SMK/MA baik yang berstatus Negeri maupun Swasta dari seluruh wilaya
+<span>Rico</span>berkas apa saja yang dibutuhkan untuk mendaftar?
+<span>Ercha Bot</span>Peserta Program PMDK PN ini adalah semua siswa/i SMA/SMK/MA baik yang berstatus Negeri maupun Swasta dari seluruh wilaya
+<span>Rico</span>bagaimana cara sekolah mendaftar?
+<span>Ercha Bot</span>1. Bagaimana alur pendaftaran? 
+ Berikut alur singkat pendaftaran: 
+ 1. Pihak Sekolah menerima username dan password und
+<span>Rico</span>bagaimana cara saya mendaftar?
+<span>Ercha Bot</span>1. Bagaimana alur pendaftaran? 
+ Berikut alur singkat pendaftaran: 
+ 1. Pihak Sekolah menerima username dan password und
+<span>Rico</span>saya lulusan 2015 apakah bisa mendaftar?
+<span>Ercha Bot</span>Tidak. http://pmdk.politeknik.or.id/page/ketentuan-umum-dan-persyaratan
+<span>Rico</span>Siapa yang boleh mendaftar?
+<span>Ercha Bot</span>Peserta Program PMDK PN ini adalah semua siswa/i SMA/SMK/MA baik yang berstatus Negeri maupun Swasta dari seluruh wilaya
+<span>Rico</span>bagaimana cara mendaftar umpn?
+<span>Ercha Bot</span>1. Bagaimana alur pendaftaran? 
+ Berikut alur singkat pendaftaran: 
+ 1. Pihak Sekolah menerima username dan password und
+<span>Rico</span>bagaimana sekolah bisa mendaftar
+<span>Ercha Bot</span>Jika sekolah belum mendaftarkan PMDKPN tahun 2018 
+ Silakan mendaftar akun baru di https://pmdk.politeknik.or.id/daftar/
+<span>Rico</span>bagaimana sekolah bisa mendaftar?
+<span>Ercha Bot</span>Jika sekolah belum mendaftarkan PMDKPN tahun 2018 
+ Silakan mendaftar akun baru di https://pmdk.politeknik.or.id/daftar/
+<span>Rico</span>bagaimana saya bisa mendaftar?
+<span>Ercha Bot</span>Peserta Program PMDK PN ini adalah semua siswa/i SMA/SMK/MA baik yang berstatus Negeri maupun Swasta dari seluruh wilaya
+<span>Rico</span>siapa saja yang boleh mendaftar?
+<span>Ercha Bot</span>Peserta Program PMDK PN ini adalah semua siswa/i SMA/SMK/MA baik yang berstatus Negeri maupun Swasta dari seluruh wilaya
+<span>Guest</span>hai
+<span>Ercha Bot</span>nama aku ercha. Kamu siapa?
+<span>Guest</span>siapa saja yang boleh mendaftar?
+<span>Ercha Bot</span>Peserta Program PMDK PN ini adalah semua siswa/i SMA/SMK/MA baik yang berstatus Negeri maupun Swasta dari seluruh wilaya
+<span>Guest</span>siswa sma boleh daftar pmdk?
+<span>Ercha Bot</span>Tidak. http://pmdk.politeknik.or.id/page/ketentuan-umum-dan-persyaratan

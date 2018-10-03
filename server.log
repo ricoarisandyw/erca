@@ -3845,3 +3845,22 @@ Traceback (most recent call last):
   File ".\server.py", line 147, in matcher
     findS
 NameError: name 'findS' is not defined
+Exception on /faq [POST]
+Traceback (most recent call last):
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wijaya\AppData\Local\Programs\Python\Python36-32\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File ".\server.py", line 43, in blogging
+    faq = FAQRepository().insert(Faq(0, _question, _answer))
+  File "G:\#Kuliah\#Tugas Akhir\aggregation\repository\FAQRepository.py", line 44, in insert
+    _first = _catch[0]
+IndexError: tuple index out of range
